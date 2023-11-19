@@ -31893,6 +31893,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3840747083259413142, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_Size.x
+      value: 1.8358994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840747083259413142, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_Size.y
+      value: 0.23442507
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840747083259413142, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.6653633
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840747083259413142, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.30891538
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840747083259413142, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840747083259413142, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840747083259413142, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840747083259413142, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241481868884780777, guid: 164714c13aade4a13b4475def099806c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cdcaa0642e9f44a87939fe712a3b6332, type: 3}
     - target: {fileID: 8241481868884780777, guid: 164714c13aade4a13b4475def099806c, type: 3}
       propertyPath: m_SortingOrder
       value: 6
