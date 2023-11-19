@@ -4,23 +4,34 @@ using UnityEngine;
 
 public class Throw : MonoBehaviour
 {
+    public static Throw instance;
+
     public GameObject thrObj;
     public GameObject pos;
+    public bool canThrow;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        instance = this;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
-
         if (Input.GetMouseButtonDown(0))
         {
-            Instantiate(thrObj, pos.transform.position, Quaternion.identity);
+            if (canThrow == true)
+            {
+                Instantiate(thrObj, pos.transform.position, Quaternion.identity);
+                StartCoroutine(ThrowTime());
+            } 
         }
     }
+
+    IEnumerator ThrowTime()
+    {
+        canThrow = false;
+        yield return new WaitForSeconds(2f);
+        canThrow = true;
+    }
+
 }
