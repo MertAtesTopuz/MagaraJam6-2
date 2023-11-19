@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class playerMovement : MonoBehaviour {
+
+    public static playerMovement instance;
+
     [SerializeField] float playerSpeed = 1f;
     [SerializeField] float playerJumpSpeed = 1f;
     [SerializeField] float wallJumpingDuration = 0.4f;
@@ -24,6 +27,7 @@ public class playerMovement : MonoBehaviour {
 
     private bool moveCheck;
     private bool jumpCheck;
+    public float faceCheck = 1f;
 
     bool isGround;
     bool isWallSliding;
@@ -34,6 +38,10 @@ public class playerMovement : MonoBehaviour {
     float wallJumpingDirection;
     float wallJumpingCounter;
 
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start() {
         playerBodyCollider = GetComponent<CapsuleCollider2D>();
@@ -177,6 +185,7 @@ public class playerMovement : MonoBehaviour {
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+            faceCheck *= -1f;
         }
     }
     public void Die() {
