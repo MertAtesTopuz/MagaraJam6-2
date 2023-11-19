@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ea558dc025a81b84b870d89cc9bf1349
+guid: 4e942d79895314cb5b9df2609453d3d8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,169 +110,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\xE7ocuk idle_0"
+      name: ChaCrouch_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 39
+        y: 1
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bc75b23dfbef504a83431e001cbf543
-      internalID: 1766985618
+      spriteID: d766a4fa69259450c982a160266f1584
+      internalID: 2115230065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\xE7ocuk idle_1"
+      name: ChaCrouch_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 21
+        y: 1
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af5a84e782268b44a809ec94bb99e093
-      internalID: -919675453
+      spriteID: 388d73bdb077740848b44ddb6488eb85
+      internalID: 802548766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\xE7ocuk idle_2"
+      name: ChaCrouch_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 57
+        y: 1
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5acccc1e7a385b74690fde1fb21cd31c
-      internalID: 321808403
+      spriteID: 6091a0648b9634e32a7eaec837540e4a
+      internalID: -488854177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\xE7ocuk idle_3"
+      name: ChaCrouch_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
+        x: 93
+        y: 1
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08a9641a235f8714a877937eb1c7204c
-      internalID: -70429541
+      spriteID: 2a902f953f7774a508226fb4635a7143
+      internalID: -610277625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\xE7ocuk idle_4"
+      name: ChaCrouch_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
+        x: 75
+        y: 1
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ad23b95b6a15db44aa816fd39870a97
-      internalID: -1283126472
+      spriteID: 758570dcf2aa04795a6f7d278e02028d
+      internalID: -387473803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\xE7ocuk idle_5"
+      name: ChaCrouch_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
+        x: 3
+        y: 1
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4c97c6bc0b82b94199c8f24eb99a99e
-      internalID: 372538260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xE7ocuk idle_6"
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0dd62dcbf6ef624f98ade12092fc9d5
-      internalID: 258603439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xE7ocuk idle_7"
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fa016e6712f5624b957a2228eb675ec
-      internalID: 1903406005
+      spriteID: 3c829de8a8ef84509981cfab019da98e
+      internalID: -405142848
       vertices: []
       indices: 
       edges: []
@@ -288,14 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\xE7ocuk idle_0": 1766985618
-      "\xE7ocuk idle_1": -919675453
-      "\xE7ocuk idle_2": 321808403
-      "\xE7ocuk idle_3": -70429541
-      "\xE7ocuk idle_4": -1283126472
-      "\xE7ocuk idle_5": 372538260
-      "\xE7ocuk idle_6": 258603439
-      "\xE7ocuk idle_7": 1903406005
+      ChaCrouch_0: 2115230065
+      ChaCrouch_1: 802548766
+      ChaCrouch_2: -488854177
+      ChaCrouch_3: -610277625
+      ChaCrouch_4: -387473803
+      ChaCrouch_5: -405142848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

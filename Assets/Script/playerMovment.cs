@@ -9,7 +9,7 @@ public class playerMovement : MonoBehaviour {
     public static playerMovement instance;
 
     [SerializeField] float playerSpeed = 1f;
-    [SerializeField] float playerJumpSpeed = 1f;
+    public float playerJumpSpeed = 1f;
     [SerializeField] float wallJumpingDuration = 0.4f;
     [SerializeField] float checkRad;
     [SerializeField] float wallSlidingSpeed = 1f;
@@ -19,6 +19,8 @@ public class playerMovement : MonoBehaviour {
     [SerializeField] LayerMask groundLayer;
     [SerializeField] Transform wallCheck;
     [SerializeField] LayerMask wallLayer;
+
+    public bool crouchCheck = false;
 
     Vector2 movePlayerInput;
     CapsuleCollider2D playerBodyCollider;
@@ -57,6 +59,15 @@ public class playerMovement : MonoBehaviour {
         }
         if (isPushing == true) {
             playerAnimator.SetBool("Running", false);
+        }
+
+        if (crouchCheck)
+        {
+            playerAnimator.SetBool("isVent", true);
+        }
+        else
+        {
+            playerAnimator.SetBool("isVent", false);
         }
 
         WallSlide();
@@ -124,8 +135,13 @@ public class playerMovement : MonoBehaviour {
         Vector2 playerMovment = new Vector2(movePlayerInput.x * playerSpeed, playerRigidbody.velocity.y);
         playerRigidbody.velocity = playerMovment;
         bool playerRunning = Mathf.Abs(playerRigidbody.velocity.x) > Mathf.Epsilon;
-        if (jumpCheck == false) {
+        if (jumpCheck == false && crouchCheck == false) {
             playerAnimator.SetBool("Running", playerRunning);
+        }
+
+        if (crouchCheck == true)
+        {
+            playerAnimator.SetBool("isCrouch", playerRunning);
         }
     }
 
